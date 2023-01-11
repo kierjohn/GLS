@@ -1,0 +1,25 @@
+{
+    "current_offering_id": null,
+    "offerings": [
+        {
+            "description": "Monthly Subscription",
+            "identifier": "gls-monthly",
+            "packages": [
+                {
+                    "identifier": "$rc_monthly",
+                    "platform_product_identifier": "gls_11_1m"
+                }
+            ]
+        },
+        {
+            "description": "Yearly Subscription",
+            "identifier": "gls-yearly",
+            "packages": [
+                {
+                    "identifier": "$rc_annual",
+                    "platform_product_identifier": "gls_119_1y"
+                }
+            ]
+        }
+    ]
+}

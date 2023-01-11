@@ -1,0 +1,46 @@
+{
+    "request_date": "2022-10-19T14:26:20Z",
+    "request_date_ms": 1666189580165,
+    "subscriber": {
+        "entitlements": {
+            "premium": {
+                "expires_date": "2022-10-19T14:40:43Z",
+                "grace_period_expires_date": null,
+                "product_identifier": "gls_119_1y",
+                "purchase_date": "2022-10-19T14:10:43Z"
+            }
+        },
+        "first_seen": "2022-10-19T00:13:45Z",
+        "last_seen": "2022-10-19T00:13:45Z",
+        "management_url": "https://play.google.com/store/account/subscriptions",
+        "non_subscriptions": {},
+        "original_app_user_id": "634f412bebd2d0d4844e6b16",
+        "original_application_version": null,
+        "original_purchase_date": null,
+        "other_purchases": {},
+        "subscriptions": {
+            "gls_119_1y": {
+                "billing_issues_detected_at": null,
+                "expires_date": "2022-10-19T14:40:43Z",
+                "grace_period_expires_date": null,
+                "is_sandbox": true,
+                "original_purchase_date": "2022-10-19T14:05:47Z",
+                "period_type": "normal",
+                "purchase_date": "2022-10-19T14:10:43Z",
+                "store": "play_store",
+                "unsubscribe_detected_at": null
+            },
+            "gls_11_1m": {
+                "billing_issues_detected_at": null,
+                "expires_date": "2022-10-19T14:31:32Z",
+                "grace_period_expires_date": null,
+                "is_sandbox": true,
+                "original_purchase_date": "2022-10-19T13:59:39Z",
+                "period_type": "normal",
+                "purchase_date": "2022-10-19T14:16:32Z",
+                "store": "play_store",
+                "unsubscribe_detected_at": null
+            }
+        }
+    }
+}

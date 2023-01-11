@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Metropolis-Light.woff2') format('woff2'),
+        url('Metropolis-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Metropolis-Regular.woff2') format('woff2'),
+        url('Metropolis-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Metropolis-Medium.woff2') format('woff2'),
+        url('Metropolis-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Metropolis-Bold.woff2') format('woff2'),
+        url('Metropolis-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis Semi';
+    src: url('Metropolis-SemiBold.woff2') format('woff2'),
+        url('Metropolis-SemiBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis Extra';
+    src: url('Metropolis-ExtraBold.woff2') format('woff2'),
+        url('Metropolis-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

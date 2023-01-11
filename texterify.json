@@ -1,0 +1,8 @@
+{
+    "api_base_url": "https://app.texterify.com/api",
+    "api_version": "v1",
+    "project_id": "09f220a0-1267-4b3e-9884-90ff6a6a666c",
+    "export_configuration_id": "41bdf552-aa95-40aa-801f-cd27f0757277",
+    "export_directory": "translations",
+    "project_path": "src"
+}

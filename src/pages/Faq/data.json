@@ -1,0 +1,12 @@
+[
+    {
+        "id": "test1",
+        "question": "faq.q.1",
+        "answer": "faq.a.1"
+    },
+    {
+        "id": "test2",
+        "question": "faq.q.2",
+        "answer": "faq.a.2"
+    }
+]

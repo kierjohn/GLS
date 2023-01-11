@@ -1,0 +1,12 @@
+pipelines:
+  branches:
+    main:
+      - step:
+            name: 'Deploy to Production'
+            deployment: production
+            script:
+              - pipe: atlassian/ssh-run:0.4.1
+                variables:
+                  SSH_USER: $GLS_SSH_USER
+                  SERVER: $GLS_SERVER
+                  COMMAND: 'chmod +x /root/gls-fe/deploy.sh && /root/gls-fe/deploy.sh'

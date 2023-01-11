@@ -1,0 +1,98 @@
+{
+  "name": "gls-fe",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-react-pdf": "^5.9.0",
+    "@react-hook/window-scroll": "^1.3.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/i18n": "^0.13.2",
+    "@types/jest": "^26.0.15",
+    "@types/js-cookie": "^3.0.1",
+    "@types/lodash": "^4.14.177",
+    "@types/luxon": "^2.0.9",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-animate-on-scroll": "^2.1.5",
+    "@types/react-beautiful-dnd": "^13.1.2",
+    "@types/react-datepicker": "^4.3.4",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-ga": "^2.3.0",
+    "@types/react-helmet": "^6.1.5",
+    "@types/react-router-dom": "^5.3.2",
+    "@types/recharts": "^1.8.23",
+    "@types/styled-components": "^5.1.15",
+    "animate.css": "^4.1.1",
+    "axios": "^0.24.0",
+    "canvg": "^4.0.0",
+    "device-detector-js": "^3.0.3",
+    "html-react-parser": "^2.0.0",
+    "html2canvas": "^1.4.1",
+    "i18next": "^21.6.7",
+    "js-cookie": "^3.0.1",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "luxon": "^2.2.0",
+    "polished": "^4.1.3",
+    "query-string": "^7.1.1",
+    "react": "^17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-datepicker": "^4.6.0",
+    "react-dnd": "^14.0.5",
+    "react-dnd-html5-backend": "^14.1.0",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.15.3",
+    "react-images-uploading": "^3.1.3",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^6.0.2",
+    "react-to-print": "^2.14.10",
+    "recharts": "^2.1.8",
+    "recharts-to-png": "^2.1.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "react-scripts": "5.0.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.1.2",
+    "typescript-plugin-styled-components": "^2.0.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build",
+    "build:prod": "env-cmd -f .env.production react-scripts build --max_old_space_size=4084",
+    "build:stage": "env-cmd -f .env.stage react-scripts build --max_old_space_size=4084",
+    "build:local": "env-cmd -f .env.local react-scripts build --max_old_space_size=4084",
+    "start": "react-scripts start",
+    "start:prod": "env-cmd -f .env.production react-scripts start",
+    "start:stage": "env-cmd -f .env.stage react-scripts start",
+    "start:local": "env-cmd -f .env.local react-scripts start",
+    "start:dev": "env-cmd -f .env.stage react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
